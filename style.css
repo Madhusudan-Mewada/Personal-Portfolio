@@ -1,0 +1,120 @@
+*{ 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+body { 
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+}
+
+nav { 
+    background: #333;
+    padding: 1em; 
+    position: fixed;
+    width: 95.6%; top: 0;
+    z-index: 1000; 
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+nav ul { 
+    display: flex; 
+    justify-content: center; 
+    list-style: none; 
+}
+
+nav a { 
+    color: white; 
+    text-decoration: none; 
+    padding: 0.5em 1em; 
+}
+
+nav a:hover, .active { 
+    background: #555; 
+}
+
+section { 
+    padding: 100px 20px; 
+    min-height: 100vh; 
+}
+
+#home { 
+    background: #f4f4f4; 
+    text-align: center; 
+}
+
+#home img { 
+    border-radius: 50%; 
+    width: 250px; 
+    height: 250px;
+    margin: 20px 0; 
+}
+
+#resume img{
+    width: 600px; 
+    height: 600px;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#resume{
+    background: #f4f4f4;
+}
+
+#resume-div{
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#about, #projects { 
+    background: #e2e2e2; 
+}
+
+#contact{
+    background: #f4f4f4;
+}
+
+.projects-gallery { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 1em; 
+}
+
+.project { 
+    background: white; 
+    padding: 1em; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+form { 
+    max-width: 600px; 
+    margin: auto; background: 
+    white; padding: 2em; 
+    border-radius: 8px; 
+}
+
+input, textarea { 
+    width: 100%; 
+    padding: 0.5em; 
+    margin-bottom: 1em; 
+}
+
+button { 
+    padding: 0.7em 2em; 
+    background: #333; 
+    color: white; border: none; 
+    border-radius: 5px; 
+}
+
+@media (max-width: 768px) {
+  nav ul { 
+    flex-direction: column; 
+  }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <title>My Portfolio</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+    
+  <section id="home">
+    <h1>Hello, I'm Madhusudan Mewada</h1>
+    <p>Welcome to My Portfolio!</p>
+    <img src="/madhu img.jpg" alt="Profile Picture">
+  </section>
+    
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a B.Tech student and passionate Full-Stack Web Developer with a strong foundation in both front-end and back-end technologies. Skilled in building responsive, user-friendly web applications using modern frameworks and tools such as React, Node.js, Express, and MongoDB. I enjoy turning complex problems into simple, elegant solutions and continuously strive to learn and adapt in the ever-evolving tech landscape. Open to exciting opportunities where I can contribute, grow, and build impactful digital experiences.</p>
+    <p><b>Education:</b>Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal<br><br><b>Hobbies:</b>Coding, Reading, Music</p>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <div id="resume-div" >
+    <img src="/MadhusudanMewadaResume1_page-0001.jpg" alt="">
+    </div>
+  </section>
+    
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-gallery">
+      <div class="project">
+        <h3>Calculator</h3>
+        <p>
+          <b>Introduction:</b>
+          <br>
+          This project is a simple and interactive calculator 
+          built using HTML, CSS, and JavaScript. It allows users to 
+          perform basic arithmetic operations like addition, subtraction, 
+          multiplication, and division. The calculator features a clean, 
+          user-friendly interface, responsive design, and basic input validation. 
+          JavaScript handles the logic of operations and updates the screen dynamically
+          as users input numbers and operations. This project improves 
+          understanding of DOM manipulation, event handling, and basic 
+          front-end development skills. 
+          <br>
+          <b>Key Features:</b>
+          <ul>
+            <li>User-friendly interface</li>
+            <li>Supports addition, subtraction, multiplication, and division</li>
+            <li>Clear button to reset input</li>
+            <li>Responsive design for mobile and desktop</li>
+            <li>Real-time screen updates</li>
+          </ul>
+          <b>Technology Used:</b>
+          <ul>
+            <li>HTML: For the basic structure</li>
+            <li>CSS: For styling and layout</li>
+            <li>JavaScript: For logic and interactivity</li>
+          </ul>
+        </p>
+      </div>
+      <div class="project">
+        <h3>My Portfolio</h3>
+        <p>
+          <b>Introduction:</b>
+          <br>
+          The Personal Portfolio Website is a web-based platform 
+          that showcases an individual’s skills, projects, education, 
+          and achievements. Built using HTML, CSS, and JavaScript, 
+          the portfolio provides visitors with a detailed view of the person’s 
+          professional profile. It is designed to be fully responsive, interactive, 
+          and visually appealing. Key sections typically include a homepage, about me, 
+          projects, skills, and a contact form. The project highlights front-end development 
+          abilities, UI/UX design sense, and an understanding of responsive web design 
+          principles. <br>
+          <b>Key Features:</b>
+          <ul>
+            <li>Professional and clean design</li>
+            <li>Responsive across all devices</li>
+            <li>Sections: Home, About, Projects, Skills, Contact</li>
+            <li>Smooth navigation and transitions</li>
+            <li>Contact form integration (can be extended to use services like EmailJS)</li>
+          </ul>
+          <b>Technology Used:</b>
+          <ul>
+            <li>HTML5 – Structure of the website</li>
+            <li>CSS3 – Styling, layouts, responsiveness</li>
+            <li>JavaScript – Interactivity and dynamic elements</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </section>
+    
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <div class="mb-3">
+        <label for="name" class="form-label">Enter Your Name</label>
+        <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter Your Name">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Enter Your Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter Your Email">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="subject" class="form-label">Subject</label>
+        <input type="text" class="form-control" id="subject" placeholder="Subject">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label"></label>
+        <textarea id="message" placeholder="Message" required>Write Your Message</textarea  class="form-control">  
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </section>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" 
+    crossorigin="anonymous">
+  </script>
+</body>
+</html>
